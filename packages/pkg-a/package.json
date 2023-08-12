@@ -1,0 +1,23 @@
+{
+  "name": "@nice_honycomb/utils",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/es/index.js",
+      "require": "./dist/lib/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

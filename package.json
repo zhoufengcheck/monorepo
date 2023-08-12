@@ -1,0 +1,30 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:pkbc": "pnpm run -C packages/pkg-a build",
+    "build:pkbb": "pnpm run -C packages/pkg-c build:easyest",
+    "cs": "changeset",
+    "version": "changeset version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gulp": "^4.0.13",
+    "@types/gulp-autoprefixer": "^0.0.34",
+    "@types/gulp-less": "^0.0.33",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
+    "sucrase": "^3.34.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
+}
