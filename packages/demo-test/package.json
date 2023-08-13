@@ -1,7 +1,7 @@
 {
   "name": "demo-test",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nice_honycomb/component": "workspace:^0.0.0",
+    "@nice_honycomb/component": "workspace:^1.0.0",
     "@nice_honycomb/utils": "workspace:^1.0.0",
     "vue": "^3.3.4"
   },
